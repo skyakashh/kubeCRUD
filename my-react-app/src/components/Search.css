@@ -1,0 +1,40 @@
+/* Search.css */
+.fade-enter {
+    opacity: 0.01;
+  }
+  
+  .fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+  }
+  
+  .fade-exit {
+    opacity: 1;
+  }
+  
+  .fade-exit.fade-exit-active {
+    opacity: 0.01;
+    transition: opacity 500ms ease-in;
+  }
+
+  .employee-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .employee-table th, .employee-table td {
+    border: 4px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  .alternate-background-image {
+    background-image: url('./tata.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Set a suitable height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* Set text color to be visible on the background */
+  }
+ 
